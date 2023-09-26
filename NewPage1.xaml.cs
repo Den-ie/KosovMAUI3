@@ -7,7 +7,7 @@ public partial class Login : ContentPage
 		InitializeComponent();
 	}
     
-    private void Click_Clinker(object sender, TextChangedEventArgs e)
+    private void Click_Clinker(object sender, EventArgs e)
     {
         if (entLogin.Text == "User")
         {
