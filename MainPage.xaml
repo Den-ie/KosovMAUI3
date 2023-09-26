@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KosovMAUI3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <StackLayout 
+                Spacing="0"
+                Padding="0, 0"
+                VerticalOptions="Start">
+
+                <Button Margin="200,0,10,0"
+                        CornerRadius="0"/>
+
+                <StackLayout  Spacing="10"
+                              Margin="10"
+                              Orientation="Horizontal">
+
+                    <Button HorizontalOptions="FillAndExpand"
+                            CornerRadius="0"/>
+
+                    <Button HorizontalOptions="FillAndExpand"
+                            CornerRadius="0"/>
+
+                    <Button HorizontalOptions="FillAndExpand"
+                            CornerRadius="0"/>
+                </StackLayout>
+
+                <Button HorizontalOptions="FillAndExpand"
+                        CornerRadius="0"
+                        Margin="10,0,10,100"/>
+
+                <Button HorizontalOptions="FillAndExpand"
+                        CornerRadius="0"
+                        Margin="10,0,10,0"/>
+
+                <StackLayout  Spacing="120"
+                              Margin="10,10,10,100"
+                              Orientation="Horizontal">
+
+                    <Button HorizontalOptions="FillAndExpand"
+                            CornerRadius="50"/>
+
+                    <Button HorizontalOptions="FillAndExpand"
+                            CornerRadius="0"/>
+                </StackLayout>
+
+                <Button HorizontalOptions="FillAndExpand"
+                        CornerRadius="0"
+                        Margin="10,0,240,0"/>
+            </StackLayout>
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

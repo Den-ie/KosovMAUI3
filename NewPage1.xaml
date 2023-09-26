@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KosovMAUI3.Login"
+             Title="Авторизация">
+    <VerticalStackLayout>
+        <StackLayout Orientation="Vertical" 
+                     Spacing="20"
+                     Margin="50" 
+                     VerticalOptions="Start">
+            
+            <Entry x:Name="entLogin" 
+                   Placeholder="Логин"/>
+
+            <Entry x:Name="entPassword" 
+                   IsPassword="True" 
+                   Placeholder="Пароль"
+                   IsSpellCheckEnabled="False" 
+                   IsTextPredictionEnabled="False"/>
+
+            <Button x:Name="Clinker"
+                    Text="Подтвердить"
+                    Clicked="Click_Clinker"/>
+
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
